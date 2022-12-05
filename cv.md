@@ -38,8 +38,17 @@ I’m 28 years old, I’m on maternity leave now and think that it’s the best 
 
 # Code example
 
-
-
+```javascript
+function countSheeps(arrayOfSheep) {
+  var num = 0;
+  for(i = 0; i < arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i]) {
+      num += 1;
+    }
+  }
+  return num;
+}
+```
 ***
 
 # Work experience
