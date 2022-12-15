@@ -114,6 +114,7 @@ html {
   display: flex;
   position: relative;
   right: 706px;
+  width: 350px;
 }
 #name {
   position: relative;
@@ -142,6 +143,7 @@ html {
   font-size: 20px;
   line-height: 35px;
   color: rgb(27, 63, 97);
+  list-style:square;
  
 }
 
@@ -149,7 +151,7 @@ html {
 list-style: none;
 margin-left: -25px;
 }
-#list-style {
+.list-style {
   list-style:square;
   color: rgb(27, 63, 97);
 }
@@ -167,22 +169,6 @@ margin-left: -25px;
  display: block;
  width: fit-content;
 }
-
-.toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-    margin-left: auto;
-    cursor: pointer;
-    user-select: none;
-
-}
-
-@media (max-width: 768px)
-.toggle {
-    display: flex
+#edu {
+  list-style: decimal;
 }
