@@ -1,0 +1,132 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>cv</title>
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#aboutme" class="nav-link">About myself</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                    </ul>
+                </nav>
+                <div class="toggle">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="section" id="profile">
+            <h1 id="name">Irina Gulyakevich</h1>
+            <h4 id="job">Junior Front-end Developer</h4>
+            <img class="photo" src="./assets/photo.png" alt="My photo">
+                </section>
+                <div class="columns">
+            <section  class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="cont-list">
+                    <li class="loc"> <img class="img" src="./assets/loc.png" alt="location"> Location: Minsk, Belarus</li>
+                    <li class="mail"> <img class="img" src="./assets/mail.png" alt="mail"> E-mail:<a href="mailto:gulyakevich19@gmail.com" title="mail">gulyakevich19@gmail.com</a></li>
+                    <li class="git-acc"> <img class="img" src="./assets/github.png" alt="github"> Github<a href="https://github.com/IrinaGulyakevich">IrinaGulyakevich</a></li>
+                    <li class="discord"> <img class="img" src="./assets/discord.png" alt="discord"> Discord:<a href="https://discord.com/channels/@me"> IrinaGulyakevich#1540</a></li>
+                </ul>
+            </section>
+            <section  class="section" id="aboutme">
+                <h2 class="section-title">About myself</h2>
+                <p class="info" id="text">I’m 28 years old, I’m on maternity leave now and think that it’s the best time to learn things which I’m interested in. I’m very diligent and determined, I’m sure these features will be useful to finish the course successfully. My goal is to have practice and gain knowledge which can help me to become frontend developer in my future.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="info">
+                    <li>Hard skills
+                        <ul class="list-style">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (basic)</li>
+                        </ul>
+                    </li>
+                    <li>Soft skills
+                        <ul class="list-style">
+                            <li>Time management</li>
+                            <li>Excellent organization</li>
+                            <li>Positive attitude</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre>
+                <code id="code-ex">
+    function countSheeps(arrayOfSheep) {
+        var num = 0;
+        for(i = 0; i &lt; arrayOfSheep.length; i++) {
+            if (arrayOfSheep[i]) {
+                num += 1;
+            }
+        }
+        return num;
+    }
+                </code>
+            </pre>
+            </section>
+            <section class="section" id="work">
+                <h2 class="section-title">Work experience</h2>
+                <ul class="info">
+                    <li>2017-2019 English teacher , tutor</li>
+                    <li>2019-2020 Software tester in a1qa</li>
+                    <li>2020-2021 Content editor in Artox Lab</li>
+                    <li>2021- present time on maternity leave</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ol class="info" id="edu">
+                    <li>Minsk State Linguistic University, linguist,English and Spanish teacher</li>
+                    <li>Software testing course in a1qa</li>
+                    <li>RS School course (in progress)</li>
+                </ol>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="info" id="cv">
+                    <li>My first project - <a href="https://IrinaGulyakevich.github.io/rsschool-cv/">CV</a></li>
+                </ul>
+            </section>
+            <section class="section" id="language">
+                <h2 class="section-title">Language</h2>
+                <ul class="info">
+                    <li>Russian- native</li>
+                    <li>English - B2</li>
+                    <li>Spanish - A2</li>
+                </ul>
+            </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <span class="data">ⓒ 2022</span>
+                <a href="https://github.com/IrinaGulyakevich" class="git-link">IrinaGulyakevich</a>
+                <a  href="https://rs.school/js/" class="rs"></a>
+            </div>
+        </footer>
+    </body>
+    </html>
